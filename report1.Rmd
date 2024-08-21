@@ -1,0 +1,71 @@
+---
+title: "MATH1115 PROJECT 1"
+author: "SID:520477256 "
+subtitle: "Project 1"
+date: "University of Sydney | MATH1115 | August 2024"
+output:
+  html_document:
+    code_download: true # embed .Rmd file
+    toc: true  # table of contents
+    toc_depth: 3
+    toc_float: true # toc is always visible when scrolled
+    number_sections: false 
+    df_print: paged # format data frame outputs automatically
+    theme: sandstone # theme the doc
+    highlight: tango # theme syntax colouring
+---
+
+```{css newstyles, echo=FALSE}
+body {
+  color: black;
+}
+```
+
+# Executive Summary
+- The aim of this report is to ...
+- The main discoveries are ...
+
+# Full Report
+
+## Initial Data Analysis (IDA)
+
+
+Summary (suggesstion):
+
+- The data came from ...
+- The data is/is not valid because ...
+- Possible issues include ...
+- Each row represents ...
+- Each column represents ...
+
+```{r}
+# Read dataset
+data <- read.csv("~/Desktop/MATH1115/Labs/data/Sleep_health_and_lifestyle_dataset.csv")
+library(tidyverse)
+```
+
+```{r}
+# Show classification of variables
+str(data)
+```
+
+
+## Research Question 1
+
+Insert text and analysis. 
+
+
+
+
+## Research Question 2
+
+Insert text and analysis. 
+
+## Research Question 3
+
+## Research Question 4
+
+# References
+
+> Style: APA 
+
